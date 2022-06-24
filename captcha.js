@@ -1,7 +1,7 @@
 function createCaptcha(
   options = {
     alphabet: [],
-    length: Math.floor(Math.random() * Number.MAX_SAFE_INTEGER),
+    length: 4,
   },
 ) {
   const alphabet = options.alphabet;
