@@ -1,0 +1,19 @@
+{
+  "name": "module-captcha",
+  "version": "1.0.1",
+  "description": "Generates captcha (func - createCaptch) with arguments:\r 1. alphabet - array\r 2. captcha length - number",
+  "main": "captcha.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NikitaZZZ/module-captcha.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NikitaZZZ/module-captcha/issues"
+  },
+  "homepage": "https://github.com/NikitaZZZ/module-captcha#readme"
+}

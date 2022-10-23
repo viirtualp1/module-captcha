@@ -1,4 +1,4 @@
-function createCaptcha(
+export default function createCaptcha(
   options = {
     alphabet: [],
     length: 4,
@@ -18,8 +18,8 @@ function createCaptcha(
 
   const randomArray = getArrayRandNumbers();
 
-  const captchaElement = document.createElement('div');
-  captchaElement.className = 'captcha';
+  const captchaElement = document.createElement("div");
+  captchaElement.className = "captcha";
   document.body.appendChild(captchaElement);
 
   randomArray.forEach((symbol) => (captchaElement.innerHTML += symbol));
