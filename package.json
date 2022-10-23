@@ -1,6 +1,6 @@
 {
   "name": "module-captcha",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Generates captcha (func - createCaptch) with arguments:\r 1. alphabet - array\r 2. captcha length - number",
   "main": "captcha.js",
   "scripts": {

@@ -13,12 +13,14 @@
   <body>
     <script src="captcha.js"></script>
     <script type="text/javascript">
-      const alphabet = [...'abcdefghijklmnopqrstuvwxyz'];
+      const alphabet = [..."abcdefghijklmnopqrstuvwxyz"];
 
-      createCaptcha({
-        alphabet: alphabet,
-        length: Math.floor(Math.random() * 100),
-      });
+      console.log(
+        createCaptcha({
+          alphabet: alphabet,
+          length: 6,
+        }),
+      );
     </script>
   </body>
 </html>
